@@ -1,5 +1,5 @@
 ---
-title: "NURA Model"
+title: "SIR Model"
 output: html_notebook
 ---
 
