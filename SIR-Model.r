@@ -1,3 +1,13 @@
+####################
+
+## TO DO:
+## Turnover rate is currently 0.5 (l=1, d=0.5, h=0.01, u1=0.01)
+## Test different l and d rates, closer to 0.1, but keep the turnover rate around 0.1-0.5
+## Add in a drug-induced death rate H_s (cyclical treatment)
+## One drug for a long time vs Another drug for a long time vs Both drugs alternating
+
+####################
+
 set.seed(123)
 n = c(10, 100, 1000)
 
@@ -28,9 +38,12 @@ for(sampleSize in n){
     
     Time = X[, 1]
     par(mfrow = c(1, 2))
-    plot(Time, X[, 2], ylab="S", ylim=c(0, sum(X[1, 2:3])), type="l", lwd=2, main=paste("Susceptible Population vs Time for Starting Size", sampleSize), cex.main=0.70)
-    plot(Time, X[, 3], ylab="R", ylim=c(0, sum(X[1, 2:3])), type="l", lwd=2, main=paste("Resistant Population vs Time for Starting Size", sampleSize), cex.main=0.70)
     
-    write.csv(X, file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/data/cellData", sampleSize, ".csv", sep=""), row.names=FALSE)
+    #png(filename = "timeVsPopulation", width = 800, height = 600) save plots
+    
+    plot(Time, X[, 2], ylab="S", ylim=c(0, max(X[nrow(X), 2:3])), type="l", lwd=2, main=paste("Susceptible Population vs Time for Starting Size", sampleSize), cex.main=0.70)
+    plot(Time, X[, 3], ylab="R", ylim=c(0, max(X[nrow(X), 2:3])), type="l", lwd=2, main=paste("Resistant Population vs Time for Starting Size", sampleSize), cex.main=0.70)
+    
+    write.csv(X, file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/data/cellData", sampleSize, ".birth_", l, ".death_", d, ".transformation_", h, ".mutation_", u1, ".csv", sep=""), row.names=FALSE)
 }
 
