@@ -1,0 +1,110 @@
+```{r}
+# Event Rates
+
+# Birth and Death are arbitrarily chosen, all that matters is the turnover rate (Death/Birth) is between 0.1-0.5
+birthRate = 0.1 
+deathRate = 0.05
+
+# Mutation rates were arbitrarily chosen. Komarova provided a range of mutation rates to try out.
+mutationRate1 = 10e-4 
+mutationRate2 = 10e-5
+mutationRateB = 10e-6
+
+# Komarova states there are many ways to simulate the drug induced death rate, in her model, she simply sets each drug's induced death rate to the treatment intensity if cells are susceptible to at least one drug and 0 if they are susceptible to 0.
+# Formula for treatment intensity was taken from Section 4.1 The case of one drug.
+treatmentIntensity = 2 * (birthRate - deathRate)
+drugInducedDeathRate1 = treatmentIntensity
+drugInducedDeathRate2 = treatmentIntensity
+
+# Initial population was arbitrarily chosen. It appears Komarova used 100 for both of her numerical simulations, however, these were simply used to test the dependence between variables, so it may not be accurate.
+tumorData = data.frame(
+    Time = 0,
+    S = 100, # Susceptible 
+    R1 = 0, # Resistant to Drug 1
+    R2 = 0, # Resistant to Drug 2
+    RB = 0 # Resistant to Drug 1 and Drug 2
+)
+
+updateMatrix = matrix(c(
+    # Faithful Reproduction
+    1, 0, 0, 0,
+    
+    # Mutation
+    0, 1, 0, 0,
+    0, 0, 1, 0,
+    0, 0, 0, 1,
+    
+    # Death
+    -1, 0, 0, 0,
+    0, -1, 0, 0,
+    0, 0, -1, 0,
+    0, 0, 0, -1,
+    
+    # Transformation S -> R
+    -1, 1, 0, 0,
+    -1, 0, 1, 0,
+    -1, 0, 0, 1,
+    
+    # Transformation R -> R
+    0, -1, 0, 1,
+    0, 0, -1, 1
+    
+), ncol=4, byrow=TRUE)
+colnames(updateMatrix) = c("S", "R1", "R2", "RB")
+rownames(updateMatrix) = c("Faithful Division", "Mutation R1", "Mutation R2", "Mutation RB", "Death S", "Death R1", "Death R2", "Death RB", "Transformation S R1", "Transformation S R2", "Transformation S RB", "Transformation R1 RB", "Transformation R2 RB")
+
+time = data$Time
+maxTime = 10
+currentState = c(S=tumorData$S, R1=tumorData$R1, R2=tumorData$R2, RB=tumorData$RB)
+sumOfMutations = mutationRate1 + mutationRate2 + mutationRateB
+sumOfDrugInducedDeathRates = drugInducedDeathRate1 + drugInducedDeathRate2
+while(time < 10 & sum(currentState) > 0){
+    currentState[currentState < 0] = 0
+    
+    rates = c(
+    # Faithful Reproduction
+    birthRate * (1 - sumOfMutations) * tumroData$S,
+
+    # Mutation
+    birthRate * (1 - mutationRateB) * tumorData$R1,
+    birthRate * (1 - mutationRateB) * tumorData$R2,
+    birthRate * data$RB,
+
+    # Death
+    (deathRate + sumOfDrugInducedDeathRates) * tumorData$S,
+    (deathRate + drugInducedDeathRate2) * tumorData$R1,
+    (deathRate + drugInducedDeathRate1) * tumorData$R2,
+    deathRate * tumorData$RB,
+
+    # Transformation S -> R
+    birthRate * mutationRate1 * tumorData$S,
+    birthRate * mutationRate2 * tumorData$S,
+    birthRate * mutationRateB * tumorData$S,
+
+    # Transformation R -> R
+    birthRate * mutationRateB * tumorData$R2,
+    birthRate * mutationRateB * tumorData$R2,
+    )
+    
+    totalRates = sum(rates)
+    if(totalRates == 0){
+        break
+    }
+    
+    # Identify the event that will take place at the time step. 
+    tstep = rexp(1, totalRates)
+    event = runif(1, 0, totalRates)
+    eventIdx = findInterval(event, cumsum(rates)) + 1
+    
+    # Update the state.
+    currentState = currentState + updateMatrix[eventIdx, ]
+    tumorData = rbind(
+        Time = time + tstep,
+        S = currentState["S"],
+        R1 = currentState["R1"],
+        R2 = currentState["R2"],
+        RB = currentState["RB"]
+    )
+}
+
+```

@@ -63,4 +63,4 @@ cyclicTreatment <- function(sampleSize=100, birthRateS=1, birthRateR=0.8, deathR
     return(X)
 }
 
-cyclicTreatment()
+cyclicTreatment(sampleSize=1000)
