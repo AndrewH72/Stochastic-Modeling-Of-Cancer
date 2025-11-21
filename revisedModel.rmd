@@ -1,23 +1,33 @@
+# RUN X AMOUNT OF SIMULATIONS TO SEE THE AVERAGE TIME THAT POPULATION B FIRST APPEARS AND THE MAX SIZE OF EACH
+# MAX SIZE OF RESISTANT POPULATION
+# IMPLEMENT CYCLIC TREATMENT
+# PLAY AROUND WITH DRUG RATIO, CYCLE TIMES
+# MAYBE LOOK AT TUMOR HETEROGENEITY AFTERWARDS (PLAY AROUND WITH POPULATIONS)
+# MAKE IMPLEMENTATION MORE EFFICIENT (PYTHON, FRAMEWORK)
+# TURNOVER CANCER TYPES
+
+
+KOMAROVA MODEL
 ```{r}
 # Event Rates
 
 # Birth and Death are arbitrarily chosen, all that matters is the turnover rate (Death/Birth) is between 0.1-0.5
-birthRate = 0.1 
-deathRate = 0.05
+birthRate = 1
+deathRate = 0.99
 
 # Mutation rates were arbitrarily chosen. Komarova provided a range of mutation rates to try out.
 mutationRate1 = 10e-4 
-mutationRate2 = 10e-5
-mutationRateB = 10e-6
+mutationRate2 = 10e-4
+mutationRateB = 10e-4
 
 # Komarova states there are many ways to simulate the drug induced death rate, in her model, she simply sets each drug's induced death rate to the treatment intensity if cells are susceptible to at least one drug and 0 if they are susceptible to 0.
 # Formula for treatment intensity was taken from Section 4.1 The case of one drug.
 treatmentIntensity = 2 * (birthRate - deathRate)
-drugInducedDeathRate1 = treatmentIntensity
-drugInducedDeathRate2 = treatmentIntensity
+drugInducedDeathRate1 = 0.01
+drugInducedDeathRate2 = 0.01
 
 # Initial population was arbitrarily chosen. It appears Komarova used 100 for both of her numerical simulations, however, these were simply used to test the dependence between variables, so it may not be accurate.
-sampleSize = 10000
+sampleSize = 1000
 tumorData = data.frame(
     Time = 0,
     S = sampleSize, # Susceptible 
@@ -63,7 +73,7 @@ sumOfMutations = mutationRate1 + mutationRate2 + mutationRateB
 sumOfDrugInducedDeathRates = drugInducedDeathRate1 + drugInducedDeathRate2
 
 
-sink(file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/logs/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".log", sep = ""))
+sink(file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/logs/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".dateTime_", Sys.time(), ".log", sep = ""))
 cat(colnames(tumorData), "\n")
 while(time < maxTime & sum(currentState) > 0){
     cat(as.character(tumorData[iterations + 1, ]), "\n")
@@ -87,7 +97,6 @@ while(time < maxTime & sum(currentState) > 0){
     # Transformation S -> R
     birthRate * mutationRate1 * currentState["S"],
     birthRate * mutationRate2 * currentState["S"],
-    birthRate * mutationRateB * currentState["S"],
 
     # Transformation R -> R
     birthRate * mutationRateB * currentState["R1"],
@@ -121,12 +130,154 @@ while(time < maxTime & sum(currentState) > 0){
 cat(as.character(tail(tumorData, 1)))
 sink()
 
-png(filename=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/plots/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".png", sep = "")) 
-par(mfrow = c(1, 2))
+png(filename=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/plots/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".dateTime_", Sys.time(), ".png", sep = "")) 
+par(mfrow = c(2, 2))
 plot(tumorData[, 1], tumorData[, 2], ylim=c(0, max(tumorData[, 2])), type="l", lwd=2, main=paste("Susceptible Population vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab=" Susceptible Population")
-plot(tumorData[, 1], tumorData[, 3], ylim=c(0, max(tumorData[, 3])), type="l", lwd=2, main=paste("Resistant Population vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab="Resistant Population")
+plot(tumorData[, 1], tumorData[, 3], ylim=c(0, max(tumorData[, 3])), type="l", lwd=2, main=paste("Resistant Population 1 vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab="Resistant Population 1")
+plot(tumorData[, 1], tumorData[, 4], ylim=c(0, max(tumorData[, 4])), type="l", lwd=2, main=paste("Resistant Population 2 vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab="Resistant Population 2")
+plot(tumorData[, 1], tumorData[, 5], ylim=c(0, max(tumorData[, 5])), type="l", lwd=2, main=paste("Resistant Population B vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab="Resistant Population B")
 dev.off()
 
-write.csv(tumorData, file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/data/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".csv", sep = ""), row.names=FALSE)
+write.csv(tumorData, file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/data/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".dateTime_", Sys.time(), ".csv", sep = ""), row.names=FALSE)
+
+```
+
+
+# DRUG-INDUCED DEATH RATE SHOULDNT BE ARBITRARY
+
+CYCLIC TREATMENT MODEL
+```{r}
+# Event Rates
+
+# Birth and Death are arbitrarily chosen, all that matters is the turnover rate (Death/Birth) is between 0.1-0.5
+birthRate = 1
+deathRate = 0.99
+
+# Mutation rates were arbitrarily chosen. Komarova provided a range of mutation rates to try out.
+mutationRate1 = 10e-4 
+mutationRate2 = 10e-4
+mutationRateB = 10e-4
+
+# Komarova states there are many ways to simulate the drug induced death rate, in her model, she simply sets each drug's induced death rate to the treatment intensity if cells are susceptible to at least one drug and 0 if they are susceptible to 0.
+# Formula for treatment intensity was taken from Section 4.1 The case of one drug.
+treatmentIntensity = 2 * (birthRate - deathRate)
+drugInducedDeathRate1 = 0.01
+drugInducedDeathRate2 = 0.01
+
+# Initial population was arbitrarily chosen. It appears Komarova used 100 for both of her numerical simulations, however, these were simply used to test the dependence between variables, so it may not be accurate.
+sampleSize = 1000
+tumorData = data.frame(
+    Time = 0,
+    S = sampleSize, # Susceptible 
+    R1 = 0, # Resistant to Drug 1
+    R2 = 0, # Resistant to Drug 2
+    RB = 0 # Resistant to Drug 1 and Drug 2
+)
+
+updateMatrix = matrix(c(
+    # Faithful Reproduction
+    1, 0, 0, 0,
+    
+    # Mutation
+    0, 1, 0, 0,
+    0, 0, 1, 0,
+    0, 0, 0, 1,
+    
+    # Death
+    -1, 0, 0, 0,
+    0, -1, 0, 0,
+    0, 0, -1, 0,
+    0, 0, 0, -1,
+    
+    # Transformation S -> R
+    -1, 1, 0, 0,
+    -1, 0, 1, 0,
+    -1, 0, 0, 1,
+    
+    # Transformation R -> R
+    0, -1, 0, 1,
+    0, 0, -1, 1
+    
+), ncol=4, byrow=TRUE)
+colnames(updateMatrix) = c("S", "R1", "R2", "RB")
+rownames(updateMatrix) = c("Faithful Division", "Mutation R1", "Mutation R2", "Mutation RB", "Death S", "Death R1", "Death R2", "Death RB", "Transformation S R1", "Transformation S R2", "Transformation S RB", "Transformation R1 RB", "Transformation R2 RB")
+
+set.seed(42)
+iterations = 0
+time = tumorData$Time
+cycleTime1 = 10
+cycleTime2 = 5
+totalCycles = 10
+currentState = c(S=tumorData$S, R1=tumorData$R1, R2=tumorData$R2, RB=tumorData$RB)
+sumOfMutations = mutationRate1 + mutationRate2 + mutationRateB
+sumOfDrugInducedDeathRates = drugInducedDeathRate1 + drugInducedDeathRate2
+
+
+sink(file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/logs/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".dateTime_", Sys.time(), ".log", sep = ""))
+cat(colnames(tumorData), "\n")
+while(time < totalCycles * (cycleTime1 + cycleTime2)){
+    cat(as.character(tumorData[iterations + 1, ]), "\n")
+    currentState[currentState < 0] = 0
+    
+    rates = c(
+    # Faithful Reproduction
+    birthRate * (1 - sumOfMutations) * currentState["S"],
+
+    # Mutation
+    birthRate * (1 - mutationRateB) * currentState["R1"],
+    birthRate * (1 - mutationRateB) * currentState["R2"],
+    birthRate * currentState["RB"],
+
+    # Death
+    (deathRate + sumOfDrugInducedDeathRates) * currentState["S"],
+    (deathRate + drugInducedDeathRate2) * currentState["R1"],
+    (deathRate + drugInducedDeathRate1) * currentState["R2"],
+    deathRate * currentState["RB"],
+
+    # Transformation S -> R
+    birthRate * mutationRate1 * currentState["S"],
+    birthRate * mutationRate2 * currentState["S"],
+
+    # Transformation R -> R
+    birthRate * mutationRateB * currentState["R1"],
+    birthRate * mutationRateB * currentState["R2"]
+    )
+    
+    totalRates = sum(rates)
+    if(totalRates == 0){
+        break
+    }
+    
+    # Identify the event that will take place at the time step. 
+    tstep = rexp(1, totalRates)
+    event = runif(1, 0, totalRates)
+    eventIdx = which.max(event <= cumsum(rates))
+    
+    # Update the state.
+    currentState = currentState + updateMatrix[eventIdx, ]
+    newRow = data.frame(
+        Time = time + tstep,
+        S = currentState["S"],
+        R1 = currentState["R1"],
+        R2 = currentState["R2"],
+        RB = currentState["RB"]
+    )
+    tumorData = rbind(tumorData, newRow)
+    rownames(tumorData) = NULL
+    time = time + tstep
+    iterations = iterations + 1
+}
+cat(as.character(tail(tumorData, 1)))
+sink()
+
+png(filename=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/plots/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".dateTime_", Sys.time(), ".png", sep = "")) 
+par(mfrow = c(2, 2))
+plot(tumorData[, 1], tumorData[, 2], ylim=c(0, max(tumorData[, 2])), type="l", lwd=2, main=paste("Susceptible Population vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab=" Susceptible Population")
+plot(tumorData[, 1], tumorData[, 3], ylim=c(0, max(tumorData[, 3])), type="l", lwd=2, main=paste("Resistant Population 1 vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab="Resistant Population 1")
+plot(tumorData[, 1], tumorData[, 4], ylim=c(0, max(tumorData[, 4])), type="l", lwd=2, main=paste("Resistant Population 2 vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab="Resistant Population 2")
+plot(tumorData[, 1], tumorData[, 5], ylim=c(0, max(tumorData[, 5])), type="l", lwd=2, main=paste("Resistant Population B vs Time for Starting Size", sampleSize), cex.main=0.70, xlab="Time", ylab="Resistant Population B")
+dev.off()
+
+write.csv(tumorData, file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/data/RevisedModel/tumorLog.sampleSize_", sampleSize, ".birthRate_", birthRate, ".deathRate_", deathRate, ".mutationRate1_", mutationRate1, ".mutationRate2_", mutationRate2, ".mutationRateRB_", mutationRateB, ".treatmentIntensity_", treatmentIntensity, ".drugInducedDeathRate1_", drugInducedDeathRate1, ".drugInducedDeathRate2_", drugInducedDeathRate2, ".dateTime_", Sys.time(), ".csv", sep = ""), row.names=FALSE)
 
 ```
