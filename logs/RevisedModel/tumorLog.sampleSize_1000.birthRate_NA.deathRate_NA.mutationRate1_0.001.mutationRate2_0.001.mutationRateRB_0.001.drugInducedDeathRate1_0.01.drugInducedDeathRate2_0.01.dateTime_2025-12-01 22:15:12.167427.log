@@ -1,0 +1,35 @@
+Time S R1 R2 RB 
+0 1000 0 0 0 
+Called from: komarovaModel2Drugs(birthRate[i], deathRate[i], mutationRate1, 
+    mutationRate2, mutationRateB, drugInducedDeathRate1, drugInducedDeathRate2, 
+    sampleSize, maxTime)
+Called from: komarovaModel2Drugs(birthRate, deathRate, mutationRate1, mutationRate2, 
+    mutationRateB, drugInducedDeatRate1, drugInducedDeathRate2, 
+    sampleSize, maxTime)
+Called from: komarovaModel2Drugs(birthRate, deathRate, mutationRate1, mutationRate2, 
+    mutationRateB, drugInducedDeatRate1, drugInducedDeathRate2, 
+    sampleSize, maxTime)
+Max Susceptible Population: 12353 
+ Max Resistant1 Population: 70 
+ Max Resistant2 Population: 88 
+ Max ResistantB Population: 1 
+Max Susceptible Population: 37410 
+ Max Resistant1 Population: 268 
+ Max Resistant2 Population: 617 
+ Max ResistantB Population: 1 
+Max Susceptible Population: 132006 
+ Max Resistant1 Population: 1025 
+ Max Resistant2 Population: 686 
+ Max ResistantB Population: 1 
+Max Susceptible Population: 13681 
+ Max Resistant1 Population: 54 
+ Max Resistant2 Population: 94 
+ Max ResistantB Population: 1 
+Max Susceptible Population: 57534 
+ Max Resistant1 Population: 615 
+ Max Resistant2 Population: 466 
+ Max ResistantB Population: 1 
+Max Susceptible Population: 81179 
+ Max Resistant1 Population: 1075 
+ Max Resistant2 Population: 969 
+ Max ResistantB Population: 1 
