@@ -39,7 +39,7 @@ optimizedKomarova2D = function(birthRate=1.0, deathRate=0.5, mutationRate1=10e-4
            birthRate * mutationRate1 * currentState["S"],
            birthRate * mutationRate2 * currentState["S"],
            birthRate * mutationRateB * currentState["R1"],
-           birthRate * mutationRateB * currentState["R2"],
+           birthRate * mutationRateB * currentState["R2"]
        )
        
        totalRate = sum(rates)
@@ -69,25 +69,64 @@ optimizedKomarova2D = function(birthRate=1.0, deathRate=0.5, mutationRate1=10e-4
 }
 
 runSimulation = function(){
-    maxTime = 100
-    birthRate = 0.99
-    deathRate = 0.5
-    mutationRate1 = 10e-4
-    mutationRate2 = 10e-4
-    mutationRateB = 10e-4
+    maxTime = 1000
+    deathRates = 0.99
+    # deathRates = seq(0.9, 1, 0.01)
+    turnOverRatios = c(0.99)
+    # turnOverRatios = seq(0.9, 1, 0.01)
+    mutationRates1 = c(10e-6)
+    mutationRates2 = c(10e-6)
+    mutationRatesB = c(10e-6)
+    drugInducedDeathRates1 = c(0.05)
+    # drugInducedDeathRates2 = c(0.05)
+    # mutationRates1 = c(10e-9, 10e-8, 10e-7, 10e-6, 10e-5, 10e-4)
+    # mutationRates2 = c(10e-9, 10e-8, 10e-7, 10e-6, 10e-5, 10e-4)
+    # mutationRatesB = c(10e-9, 10e-8, 10e-7, 10e-6, 10e-5, 10e-4)
     sampleSize = 1000
-    drugInducedDeathRate1 = 0.01
-    drugInducedDeathRate2 = 0.01
+    # drugInducedDeathRates1 = seq(0.01, 0.1, 0.01)
+    drugInducedDeathRates2 = seq(0.01, 0.1, 0.01)
     tau = 0.1
     
-    startTime = Sys.time()
-    result = optimizedKomarova2D(birthRate, deathRate, mutationRate1, mutationRate2, mutationRateB, drugInducedDeathRate1, drugInducedDeathRate2, sampleSize, maxTime, tau)
-    endTime = Sys.time()
-    
-    print(paste("Run Time:", endTime - startTime))
-    par(mfrow=c(2,2))
-    plot(result$Time, result$S, type="l", main="S", xlab="Time")
-    plot(result$Time, result$R1, type="l", main="R1", xlab="Time")
-    plot(result$Time, result$R2, type="l", main="R2", xlab="Time")
-    plot(result$Time, result$RB, type="l", main="RB", xlab="Time")
+    for(turnOverRatio in turnOverRatios){
+        for(deathRate in deathRates){
+            birthRate = deathRate / turnOverRatio
+            for(mutationRate1 in mutationRates1){
+                for(mutationRate2 in mutationRates2){
+                    for(mutationRateB in mutationRatesB){
+                        for(drugInducedDeathRate1 in drugInducedDeathRates1){
+                            for(drugInducedDeathRate2 in drugInducedDeathRates2){
+                                fileName = paste("birthRate.", birthRate, "_deathRate.", deathRate, "_mutationRate1.", mutationRate1, "_mutationRate2.", mutationRate2, "_mutationRateB.", mutationRateB, "_drugInducedDeathRate1.", drugInducedDeathRate1, "_drugInducedDeathRate2.", drugInducedDeathRate2, "_sampleSize.", sampleSize, "_tau.", tau, sep="")
+                                startTime = Sys.time()
+                                result = optimizedKomarova2D(birthRate, deathRate, mutationRate1, mutationRate2, mutationRateB, drugInducedDeathRate1, drugInducedDeathRate2, sampleSize, maxTime, tau)
+                                endTime = Sys.time()
+                                print(paste("Run Time:", endTime - startTime))
+                                
+                                png(filename=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/plots/OptimizedModel/drugInducedDeathRate2/", fileName, ".png", sep=""))
+                                par(mfrow=c(2,2))
+                                plot(result$Time, result$S, type="l", main="S", xlab="Time", ylab="Population Size")
+                                plot(result$Time, result$R1, type="l", main="R1", xlab="Time", ylab="Population Size")
+                                plot(result$Time, result$R2, type="l", main="R2", xlab="Time", ylab="Population Size")
+                                plot(result$Time, result$RB, type="l", main="RB", xlab="Time", ylab="Population Size")
+                                dev.off() 
+                                
+                                write.csv(result, file=paste("/Users/andrewhsu/Projects/PREP-NURA/NURA/data/OptimizedModel/drugInducedDeathRate2/", fileName, ".csv", sep=""), row.names=FALSE)
+                                
+                                sink(file="/Users/andrewhsu/Projects/PREP-NURA/NURA/data/OptimizedModel/statistics.txt", append=TRUE)
+                                print(paste("drugInducedDeathRate2/", fileName, sep=""))
+                                print("Average of Each Column:") 
+                                print(colMeans(result[, -1]))
+                                
+                                print("Max of Each Column:") 
+                                print(apply(result[, -1], 2, max))
+                                cat("\n")
+                                sink()
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+runSimulation()

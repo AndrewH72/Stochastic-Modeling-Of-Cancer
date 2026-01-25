@@ -1,0 +1,480 @@
+[1] "birthDeathRate/birthRate.0.909090909090909_deathRate.0.9_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+2.210720e+02 4.962779e-03 0.000000e+00 0.000000e+00 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    1    0    0 
+
+[1] "birthDeathRate/birthRate.0.919191919191919_deathRate.0.91_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+183.0612   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1001    0    0    0 
+
+[1] "birthDeathRate/birthRate.0.929292929292929_deathRate.0.92_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+212.8008   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "birthDeathRate/birthRate.0.93939393939394_deathRate.0.93_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+223.1839   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1007    0    0    0 
+
+[1] "birthDeathRate/birthRate.0.94949494949495_deathRate.0.94_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+245.9958   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1019    0    0    0 
+
+[1] "birthDeathRate/birthRate.0.95959595959596_deathRate.0.95_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+236.9956   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "birthDeathRate/birthRate.0.96969696969697_deathRate.0.96_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+175.1532   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "birthDeathRate/birthRate.0.97979797979798_deathRate.0.97_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+          S          R1          R2          RB 
+144.8202247   0.0000000   0.1111111   0.0000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    6    0 
+
+[1] "birthDeathRate/birthRate.0.98989898989899_deathRate.0.98_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+203.3501   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "birthDeathRate/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+248.8457   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "birthDeathRate/birthRate.1.01010101010101_deathRate.1_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+201.6828   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1028    0    0    0 
+
+[1] "turnOverRatio/birthRate.1.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+7.959146e+03 4.547346e+00 1.180036e+01 3.015682e-04 
+[1] "Max of Each Column:"
+    S    R1    R2    RB 
+30019    84   172     1 
+
+[1] "turnOverRatio/birthRate.1.08791208791209_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+8.293916e+02 2.341137e-03 3.597883e+02 3.344482e-04 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1519    1 4926    1 
+
+[1] "turnOverRatio/birthRate.1.07608695652174_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+326.66751269   0.02791878   0.00000000   0.00000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1047    3    0    0 
+
+[1] "turnOverRatio/birthRate.1.06451612903226_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+      S      R1      R2      RB 
+296.494   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1241    0    0    0 
+
+[1] "turnOverRatio/birthRate.1.0531914893617_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+3.402186e+02 0.000000e+00 3.452244e-03 0.000000e+00 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1003    0    1    0 
+
+[1] "turnOverRatio/birthRate.1.04210526315789_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+290.1264   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "turnOverRatio/birthRate.1.03125_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+176.2629   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1003    0    0    0 
+
+[1] "turnOverRatio/birthRate.1.02061855670103_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+275.2529   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1029    0    0    0 
+
+[1] "turnOverRatio/birthRate.1.01020408163265_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+172.0987   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "turnOverRatio/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+224.00510204   0.00000000   0.06887755   0.00000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1002    0    1    0 
+
+[1] "turnOverRatio/birthRate.0.99_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+239.9461   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-08_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+215.7342   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1022    0    0    0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-07_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+167.9712   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-06_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+245.0155   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+263.42424242   0.01082251   0.00000000   0.00000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1009    1    0    0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-04_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+          S          R1          R2          RB 
+313.5023585   0.2051887   0.0000000   0.0000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    8    0    0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.0.001_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+        S        R1        R2        RB 
+103.06202  41.25692   0.00000   0.00000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000  132    0    0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-08_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+174.8596   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1007    0    0    0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-07_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+268.5691   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-06_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+177.8879   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1006    0    0    0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+195.73556797   0.04096834   0.00000000   0.00000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1023    1    0    0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-04_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+          S          R1          R2          RB 
+277.1232227   0.0000000   0.1208531   0.0000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    2    0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.0.001_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+         S         R1         R2         RB 
+257.119097   0.000000   2.195072   0.000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0   12    0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-08_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+          S          R1          R2          RB 
+210.8364780   0.1341719   0.0000000   0.0000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    4    0    0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-07_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+259.7174   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-06_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+1.431695e+02 2.421308e-03 0.000000e+00 0.000000e+00 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1057    1    0    0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+118.3245   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1030    0    0    0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-04_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+174.2761   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.0.001_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+200.43523316   0.00000000   0.05872193   0.00000000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    2    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.01_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+245.9533   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.02_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+           S           R1           R2           RB 
+1.957758e+02 8.816121e-03 0.000000e+00 0.000000e+00 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1001    1    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.03_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+194.9983   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.04_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+253.8925   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+210.0828   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1013    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.06_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+175.3859   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.07_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+217.6584   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.08_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+168.4055   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.09_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+167.4378   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.1_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+205.9615   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.01_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+306.3687   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.02_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+250.7667   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1013    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.03_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+249.7399   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1017    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.04_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+228.8323   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1019    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+222.3293   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.06_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+      S      R1      R2      RB 
+300.239   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.07_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+211.0857   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1025    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.08_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+163.7078   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.09_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+       S       R1       R2       RB 
+183.1374   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.1_sampleSize.1000_tau.0.1"
+[1] "Average of Each Column:"
+      S      R1      R2      RB 
+275.428   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+   S   R1   R2   RB 
+1000    0    0    0 
+
