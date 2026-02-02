@@ -1,0 +1,1010 @@
+[1] "birthDeathRate/birthRate.0.909090909090909_deathRate.0.9_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 731.31919   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1000.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.909090909090909_deathRate.0.9_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 601.2311   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1013.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.909090909090909_deathRate.0.9_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.005 648.017   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1001.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.909090909090909_deathRate.0.9_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 735.8137   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.919191919191919_deathRate.0.91_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 646.47641   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1002.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.919191919191919_deathRate.0.91_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 591.8636   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1006.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.919191919191919_deathRate.0.91_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 788.3094   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1012.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.919191919191919_deathRate.0.91_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 663.0392   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1013.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.929292929292929_deathRate.0.92_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 696.02740   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1017.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.929292929292929_deathRate.0.92_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 600.1717   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1003.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.929292929292929_deathRate.0.92_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 675.1387   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1000.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.929292929292929_deathRate.0.92_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+  5.05000000 717.19607843   0.00000000   0.07843137   0.00000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1005.0    0.0    2.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.93939393939394_deathRate.0.93_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 763.00018   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1012.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.93939393939394_deathRate.0.93_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 691.2079   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1010.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.93939393939394_deathRate.0.93_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 667.2305   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1011.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.93939393939394_deathRate.0.93_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 600.8529   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.94949494949495_deathRate.0.94_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 698.56103   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1014.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.94949494949495_deathRate.0.94_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 770.3944   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1037.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.94949494949495_deathRate.0.94_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 712.1886   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1023.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.94949494949495_deathRate.0.94_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 777.1275   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1039.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.95959595959596_deathRate.0.95_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 595.62154   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1022.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.95959595959596_deathRate.0.95_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 643.2709   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1010.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.95959595959596_deathRate.0.95_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 698.9232   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1009.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.95959595959596_deathRate.0.95_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 643.9118   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1005.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.96969696969697_deathRate.0.96_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 684.66677   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1025.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.96969696969697_deathRate.0.96_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+  5.00050000 680.95580884   0.00000000   0.02959408   0.00000000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1010.000    0.000    1.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.96969696969697_deathRate.0.96_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 649.3723   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1000.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.96969696969697_deathRate.0.96_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 656.6471   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.97979797979798_deathRate.0.97_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+  5.00005000 658.93386132   0.05216896   0.00000000   0.00000000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1002.0000    1.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.97979797979798_deathRate.0.97_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 675.7257   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1016.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.97979797979798_deathRate.0.97_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 620.8922   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1006.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.97979797979798_deathRate.0.97_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 651.5098   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.98989898989899_deathRate.0.98_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 682.55163   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1020.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.0.98989898989899_deathRate.0.98_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 608.1886   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1014.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.0.98989898989899_deathRate.0.98_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 496.8323   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1005.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.0.98989898989899_deathRate.0.98_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 701.4412   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1018.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 691.96700   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1014.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 653.8507   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1005.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 668.5928   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1002.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 656.9902   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.1.01010101010101_deathRate.1_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 675.84487   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1014.0000    0.0000    0.0000    0.0000 
+
+[1] "birthDeathRate/birthRate.1.01010101010101_deathRate.1_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 646.1273   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1009.000    0.000    0.000    0.000 
+
+[1] "birthDeathRate/birthRate.1.01010101010101_deathRate.1_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 697.8244   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1003.00    0.00    0.00    0.00 
+
+[1] "birthDeathRate/birthRate.1.01010101010101_deathRate.1_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 617.1961   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.909090909090909_deathRate.0.9_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.050 649.049   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.919191919191919_deathRate.0.91_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 638.2255   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.929292929292929_deathRate.0.92_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 691.8627   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1002.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.93939393939394_deathRate.0.93_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 656.1078   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.94949494949495_deathRate.0.94_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+  Time      S     R1     R2     RB 
+  5.05 680.00   0.00   0.00   0.00 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1003.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.95959595959596_deathRate.0.95_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 742.5784   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1021.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.96969696969697_deathRate.0.96_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 603.0098   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.97979797979798_deathRate.0.97_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 672.5588   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.98989898989899_deathRate.0.98_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+  5.05000000 582.37254902   0.00000000   0.04901961   0.00000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    1.0    0.0 
+
+[1] "birthDeathRate/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 571.1275   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1010.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.1.01010101010101_deathRate.1_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 661.5098   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1023.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.505050505050505_deathRate.0.5_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 676.8627   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.555555555555556_deathRate.0.55_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 647.5196   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1008.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.606060606060606_deathRate.0.6_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 624.0196   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.656565656565657_deathRate.0.65_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 621.9902   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.707070707070707_deathRate.0.7_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 675.5882   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1003.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.757575757575758_deathRate.0.75_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.050 669.402   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.808080808080808_deathRate.0.8_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 654.3529   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.858585858585859_deathRate.0.85_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 631.5686   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "birthDeathRate/birthRate.0.909090909090909_deathRate.0.9_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 766.2157   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1015.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+   5.050 1115.225    0.000    0.000    0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1314.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.08791208791209_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 887.7549   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1035.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.07608695652174_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 990.5784   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1045.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.06451612903226_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 842.2549   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1015.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.0531914893617_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 806.3922   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1021.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.04210526315789_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 757.4706   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.03125_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 795.7549   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.02061855670103_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 664.3824   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1023.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.01020408163265_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+  Time      S     R1     R2     RB 
+  5.05 725.00   0.00   0.00   0.00 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+       Time           S          R1          R2          RB 
+  5.0500000 727.4705882   0.0000000   0.9705882   0.0000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1001.0    0.0    5.0    0.0 
+
+[1] "turnOverRatio/birthRate.0.99_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 673.9902   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1012.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.98_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+     5.05000 666408.33333     31.96078     45.73529      0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+     10.1 5552968.0     409.0     519.0       0.0 
+
+[1] "turnOverRatio/birthRate.1.8_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+5.050000e+00 1.674721e+05 4.872549e+00 6.401961e+00 0.000000e+00 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+     10.1 1134658.0      57.0      53.0       0.0 
+
+[1] "turnOverRatio/birthRate.1.65_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+    5.050000 45743.019608     1.490196     1.784314     0.000000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+    10.1 250979.0     10.0     18.0      0.0 
+
+[1] "turnOverRatio/birthRate.1.52307692307692_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+5.050000e+00 1.714614e+04 7.647059e-01 2.333333e+00 0.000000e+00 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+   10.1 74002.0     4.0    16.0     0.0 
+
+[1] "turnOverRatio/birthRate.1.41428571428571_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+5.050000e+00 6.946088e+03 3.137255e-01 9.803922e-03 0.000000e+00 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+   10.1 22663.0     3.0     1.0     0.0 
+
+[1] "turnOverRatio/birthRate.1.32_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+   5.050 3425.696    0.000    0.000    0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 8564.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.2375_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+   5.050 2427.392    0.000    0.000    0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 4600.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.16470588235294_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+   5.050 1280.657    0.000    0.000    0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1725.0    0.0    0.0    0.0 
+
+[1] "turnOverRatio/birthRate.1.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+   5.05 1069.01    0.00    0.00    0.00 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1153.0    0.0    0.0    0.0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-08_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 613.9804   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-07_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 708.4608   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1016.0    0.0    0.0    0.0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-06_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 601.2451   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1013.0    0.0    0.0    0.0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+  5.05000000 514.40196078   0.07843137   0.00000000   0.00000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    1.0    0.0    0.0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-04_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+      Time          S         R1         R2         RB 
+  5.050000 514.470588   1.480392   0.000000   0.000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    4.0    0.0    0.0 
+
+[1] "mutationRate1/birthRate.1_deathRate.0.99_mutationRate1.0.001_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 729.0196   0.5000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1010.0    3.0    0.0    0.0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-08_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 677.9804   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-07_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 668.9608   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-06_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 676.3137   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1047.0    0.0    0.0    0.0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 630.2941   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1022.0    0.0    0.0    0.0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-04_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+       Time           S          R1          R2          RB 
+  5.0500000 671.4509804   0.0000000   0.1176471   0.0000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    1.0    0.0 
+
+[1] "mutationRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.0.001_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+       Time           S          R1          R2          RB 
+  5.0500000 594.5882353   0.0000000   0.4803922   0.0000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    4.0    0.0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-08_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 571.7255   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-07_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 670.9314   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-06_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 637.0098   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1011.0    0.0    0.0    0.0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.050 722.951   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1010.0    0.0    0.0    0.0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-04_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 624.0294   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "mutationRateB/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.0.001_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 702.1471   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1028.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.01_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 882.8333   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.02_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+        Time            S           R1           R2           RB 
+  5.05000000 702.39215686   0.09803922   0.00000000   0.00000000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    1.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.03_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.050 753.902   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.04_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 718.9804   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1016.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.050 619.049   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1002.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.06_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 693.8137   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.07_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.050 562.902   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.08_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 549.3529   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.09_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 609.1961   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate1/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.1_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 472.0882   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.01_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 803.8235   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.02_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+   Time       S      R1      R2      RB 
+  5.050 689.549   0.000   0.000   0.000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1017.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.03_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 710.3627   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1020.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.04_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 749.0784   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1027.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 569.3725   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.06_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 623.8824   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.07_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 519.9706   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.08_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 585.4412   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.09_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 621.2157   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+[1] "drugInducedDeathRate2/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.1_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 478.2255   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1013.0    0.0    0.0    0.0 
+
+[1] "tau/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.1e-04_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+     Time         S        R1        R2        RB 
+  5.00005 678.24855   0.00000   0.00000   0.00000 
+[1] "Max of Each Column:"
+     Time         S        R1        R2        RB 
+  10.0001 1001.0000    0.0000    0.0000    0.0000 
+
+[1] "tau/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.001_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0005 651.7071   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+    Time        S       R1       R2       RB 
+  10.001 1002.000    0.000    0.000    0.000 
+
+[1] "tau/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.01_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0050 660.8034   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+   Time       S      R1      R2      RB 
+  10.01 1000.00    0.00    0.00    0.00 
+
+[1] "tau/birthRate.1_deathRate.0.99_mutationRate1.1e-05_mutationRate2.1e-05_mutationRateB.1e-05_drugInducedDeathRate1.0.05_drugInducedDeathRate2.0.05_sampleSize.1000_tau.0.1_totalCycles.100_cycleTime1.5_cycleTime2.10"
+[1] "Average of Each Column:"
+    Time        S       R1       R2       RB 
+  5.0500 622.3137   0.0000   0.0000   0.0000 
+[1] "Max of Each Column:"
+  Time      S     R1     R2     RB 
+  10.1 1000.0    0.0    0.0    0.0 
+
+ 
+

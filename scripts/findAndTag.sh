@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rawDataDir=/Users/andrewhsu/Projects/PREP-NURA/NURA/data/OptimizedModel
-rawPNGDir=/Users/andrewhsu/Projects/PREP-NURA/NURA/plots/OptimizedModel
+rawDataDir=/Users/andrewhsu/Projects/PREP-NURA/NURA/data/OptimizedCyclic-WSSL
+rawPNGDir=/Users/andrewhsu/Projects/PREP-NURA/NURA/plots/OptimizedCyclic-WSSL
 
 dataDir=$(echo "$rawDataDir" | tr -d '\r' | xargs)
 pngDir=$(echo "$rawPNGDir" | tr -d '\r' | xargs)
