@@ -42,16 +42,16 @@ automateRuns = function(modelType, argToVary, valsToTest){
         tau = 0.1,
         cycleTime1 = 5,
         cycleTime2 = 10,
-        totalCycles = 100
+        totalCycles = 10000
     )
     
     # File Naming
     fileName = NULL
     if(modelType == "Combinational"){
-        fileName = paste("birthrate.", combFunctionArgs$birthrate, "_deathrate.", combFunctionArgs$deathrate, "_mutationrate1.", combFunctionArgs$mutationrate1, "_mutationrate2.", combFunctionArgs$mutationrate2, "_mutationrateb.", combFunctionArgs$mutationrateb, "_druginduceddeathrate1.", combFunctionArgs$druginduceddeathrate1, "_druginduceddeathrate2.", combFunctionArgs$druginduceddeathrate2, "_sSize.", combFunctionArgs$sSize, "_r1Size.", combFunctionArgs$r1Size, "_r2Size.", combFunctionArgs$r2Size, "_rbSize.", combFunctionArgs$rbSize, "_tau.", combFunctionArgs$tau, sep="")
+        fileName = paste("birthrate.", combFunctionArgs$birthRate, "_deathrate.", combFunctionArgs$deathRate, "_mutationrate1.", combFunctionArgs$mutationRate1, "_mutationrate2.", combFunctionArgs$mutationRate2, "_mutationrateb.", combFunctionArgs$mutationRateB, "_druginduceddeathrate1.", combFunctionArgs$drugInducedDeathRate1, "_druginduceddeathrate2.", combFunctionArgs$drugInducedDeathRate2, "_sSize.", combFunctionArgs$sSize, "_r1Size.", combFunctionArgs$r1Size, "_r2Size.", combFunctionArgs$r2Size, "_rbSize.", combFunctionArgs$rbSize, "_tau.", combFunctionArgs$tau, sep="")
     }
     else{
-        fileName = paste("birthrate.", cycFunctionArgs$birthrate, "_deathrate.", cycFunctionArgs$deathrate, "_mutationrate1.", cycFunctionArgs$mutationrate1, "_mutationrate2.", cycFunctionArgs$mutationrate2, "_mutationrateb.", cycFunctionArgs$mutationrateb, "_druginduceddeathrate1.", cycFunctionArgs$druginduceddeathrate1, "_druginduceddeathrate2.", cycFunctionArgs$druginduceddeathrate2, "_sSize.", cycFunctionArgs$samplesize, "_r1Size.", cycFunctionArgs$r1Size, "_r2Size.", cycFunctionArgs$r2Size, "_rbSize.", cycFunctionArgs$rbSize, "_tau.", cycFunctionArgs$tau, sep="")
+        fileName = paste("birthrate.", cycFunctionArgs$birthRate, "_deathrate.", cycFunctionArgs$deathRate, "_mutationrate1.", cycFunctionArgs$mutationRate1, "_mutationrate2.", cycFunctionArgs$mutationRate2, "_mutationrateb.", cycFunctionArgs$mutationRateB, "_druginduceddeathrate1.", cycFunctionArgs$drugInducedDeathRate1, "_druginduceddeathrate2.", cycFunctionArgs$drugInducedDeathRate2, "_sSize.", cycFunctionArgs$samplesize, "_r1Size.", cycFunctionArgs$r1Size, "_r2Size.", cycFunctionArgs$r2Size, "_rbSize.", cycFunctionArgs$rbSize, "_tau.", cycFunctionArgs$tau, sep="")
     }
     argToVaryIdx = regexpr(argToVary, fileName)[1]
     fileNameSubStr = substr(fileName, argToVaryIdx, nchar(fileName))
@@ -68,16 +68,6 @@ automateRuns = function(modelType, argToVary, valsToTest){
     # Running
     set.seed(42)
     simulationRuns = lapply(valsToTest, function(x){
-        currentArgs = NULL 
-        
-        if(argToVary == "turnOverRatio"){
-            currentArgs$turnOverRatio = x
-            currentArgs$deathRate = x * currentArgs$birthRate
-        } 
-        else{
-            currentArgs[[argToVary]] = x
-        }
-        
         if(grepl("Combinational", modelType)){
             currentArgs = combFunctionArgs
             simulationResults = do.call(optimizedKomarova2D, currentArgs)
@@ -85,6 +75,14 @@ automateRuns = function(modelType, argToVary, valsToTest){
         else{
             currentArgs = cycFunctionArgs
             simulationResults = do.call(optimizedCyclicalTreatment, currentArgs)
+        }
+        
+        if(argToVary == "turnOverRatio"){
+            currentArgs$turnOverRatio = x
+            currentArgs$deathRate = x * currentArgs$birthRate
+        } 
+        else{
+            currentArgs[[argToVary]] = x
         }
         
         summaryStats = as.data.frame(t(simulationResults[[2]]))
@@ -106,7 +104,7 @@ automateRuns = function(modelType, argToVary, valsToTest){
     })
     simulationData = bind_rows(lapply(simulationRuns, "[[", 1))
     summaryData = bind_rows(lapply(simulationRuns, "[[", 2))
-    names(summaryData) = c("Time", "TimeToSpawn", "MaxS", "MaxR1", "MaxR2", "MaxRB", "AvgS", "AvgR1", "AvgR2", "AvgRB", "VarS", "VarR1", "VarR2", "VarRB", "Success", "ArgToVary", "ArgValue")
+    names(summaryData) = c("Time", "TimeToSpawn", "MaxS", "MaxR1", "MaxR2", "MaxRB", "AvgS", "AvgR1", "AvgR2", "AvgRB", "VarS", "VarR1", "VarR2", "VarRB", "Success", "ArgToVary", "ArgValue", "ModelType")
     
     
     # Plotting
@@ -133,15 +131,19 @@ automateRuns = function(modelType, argToVary, valsToTest){
     
     
     # Saving
-    saveDataPath = paste(dataDir, modelType, argToVary, sep="/")
-    savePlotPath = paste(plotDir, modelType, argToVary, sep="/")
+    saveDataPath = file.path(dataDir, modelType, argToVary)
+    savePlotPath = file.path(plotDir, modelType, argToVary)
+    
+    dataFile = paste0(fileName, "_data.csv")
+    summaryFile = paste0(fileName, "_summary.csv")
+    plotFile = paste0(fileName, "_plotLog10.png")
     
     dir.create(saveDataPath, recursive=TRUE, showWarnings=FALSE)
     dir.create(savePlotPath, recursive=TRUE, showWarnings=FALSE)
     
-    write.csv(simulationData, file=paste(saveDataPath, "/", fileName, ".data.csv", sep=""), row.names=FALSE)
-    write.csv(summaryData, file=paste(saveDataPath, "/", fileName, ".summary.csv", sep=""), row.names=FALSE)
-    ggsave(paste(savePlotPath, "/", fileName, ".plotLog10.png", sep=""), bigGridLog10, width=14, height=10, units="in")
+    write.csv(simulationData, file=file.path(saveDataPath, dataFile), row.names=FALSE)
+    write.csv(summaryData, file=file.path(saveDataPath, summaryFile), row.names=FALSE)
+    ggsave(filename=file.path(savePlotPath, plotFile), bigGridLog10, width=14, height=10, units="in")
 }
 
 main = function(){
